@@ -40,4 +40,3 @@ function removeElementFromBeginningOfArray(array){
   newarray.slice(1);
   return(newarray);
 }
-*/
