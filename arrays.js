@@ -40,3 +40,8 @@ function removeElementFromBeginningOfArray(array){
   newarray.slice(1);
   return(newarray);
 }
+
+function destructivelyRemoveElementFromEndofArray (array){
+array.pop();
+retunr(array);
+}
