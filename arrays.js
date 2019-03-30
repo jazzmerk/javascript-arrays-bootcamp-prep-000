@@ -45,7 +45,7 @@ array.pop();
 return(array);
 }
 
-function removeElementFromEndOfArray(){
+function removeElementFromEndOfArray(array){
   var newarray=[];
   newarray=array.slice(0,array.length-1);
   return (newarray);
